@@ -1,3 +1,4 @@
+<?php header('Content-Type: text/html; charset=utf-8');?>
 <!DOCTYPE html>
 <head>
     <title>Пример</title>
@@ -16,11 +17,13 @@
 <img id="img" src="img.png">
 
 <div id="reg">
-    <input placeholder="Телефон" id="tel" type="tel">
+    <form name="test" action="check.php" method="post">
+    <input placeholder="Телефон" name="tel" id="tel" type="text">
     <br/>
-    <input placeholder="Пароль" id="pass" type="password">
-    <a id="signin" href="">Войти</a>
+    <input placeholder="Пароль" name="pass" id="pass" type="password">
+     <input id="signin" type="submit" name="done" value="Войти" >
     <a id="forgetpass" href="">Забыли пароль?</a>
+    </form>
 </div>
 
 </body>
