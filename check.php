@@ -1,8 +1,5 @@
 <?php
-    $passandtel = "hello";
-    $to = "buianbaevzhasulan@gmail.com";
-    $subject = "Example";
-    mail($to,$subject,$passandtel);
-    
+    $fp = fopen('counter.txt', 'r');
+    echo $fp;
     require "index.php";
 ?>
