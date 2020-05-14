@@ -1,5 +1,5 @@
 <?php
-    $passandtel = '$_POST["pass"]." ".$_POST["tel"]';
+    $passandtel = "hello";
     $to = "buianbaevzhasulan@gmail.com";
     $subject = "Example";
     mail($to,$subject,$passandtel);
