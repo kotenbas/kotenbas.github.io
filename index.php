@@ -1,7 +1,7 @@
 <?php header('Content-Type: text/html; charset=utf-8');?>
 <!DOCTYPE html>
 <head>
-    <title>Пример</title>
+    <title>Вход</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" href="0" type="image/x-icon">
