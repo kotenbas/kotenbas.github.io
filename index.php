@@ -1,28 +1,30 @@
+<?php header('Content-Type: text/html; charset=utf-8');?>
 <!DOCTYPE html>
-<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>uniMail</title>
+    <title>Вход</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="0" type="image/x-icon">
 </head>
 <body>
 
-	<form>
+<div id="header">
 
-		<!-- Hidden Required Fields -->
-		<input type="hidden" name="project_name" value="index">
-		<input type="hidden" name="admin_email" value="buianbaevzhasulan@gmail.com">
-		<input type="hidden" name="form_subject" value="Form Subject">
-		<!-- END Hidden Required Fields -->
+    <a href="" id="text2"><strong>Switch to English</strong></a>
 
-		<input type="text" name="Name" placeholder="You name..." required><br>
-		<input type="text" name="E-mail" placeholder="You E-mail..." required><br>
-		<input type="text" name="Phone" placeholder="You phone..."><br>
-		<button>Send</button>
+</div>
+<div id="text1"><strong>#лучшедома</strong></div>
+<img id="img" src="img.png">
 
-	</form>
-	
-	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="script.js"></script>
+<div id="reg">
+    <form name="test" action="check.php" method="post">
+    <input placeholder="Телефон" name="tel" id="tel" type="text">
+    <br/>
+    <input placeholder="Пароль" name="pass" id="pass" type="password">
+     <input id="signin" type="submit" name="done" value="Войти" >
+    <a id="forgetpass" href="">Забыли пароль?</a>
+    </form>
+</div>
 
 </body>
 </html>
