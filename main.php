@@ -49,3 +49,4 @@
     'Reply-To: '.$admin_email.'' . PHP_EOL;
     
     mail($admin_email, adopt($form_subject), $message, $headers );
+?>
